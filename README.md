@@ -47,6 +47,13 @@ After running the container or starting locally, open in your browser or Postman
 http://localhost:4432
 ```
 
+### Monitoring Tools
+
+You can access the monitoring tools at their default ports:
+
+- **Prometheus:** `http://localhost:9090`
+- **Grafana:** `http://localhost:3000`
+
 ---
 
 ## Recommended Repository Structure
@@ -62,5 +69,5 @@ http://localhost:4432
 
 - For faster future builds, Docker uses layer caching (`npm install` and build).
 - Do not upload `node_modules` or `dist/` to GitHub; use `.dockerignore`.
-- Next steps would be to add Prometheus to Docker, but that can be done later.
+- Next steps would be to add Prometheus and Grafana to Docker, but that can be done later.
 
